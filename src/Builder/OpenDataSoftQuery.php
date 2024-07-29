@@ -81,4 +81,9 @@ class OpenDataSoftQuery
         $response = $client->request('GET', urlencode($url));
         return json_decode($response->getBody()->getContents(), true);
     }
+
+    public static function query(string $dataset): OpenDataSoftQuery
+    {
+        return new OpenDataSoftQuery($dataset);
+    }
 }
