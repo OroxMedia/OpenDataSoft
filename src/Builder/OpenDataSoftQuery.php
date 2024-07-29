@@ -84,8 +84,6 @@ class OpenDataSoftQuery
         $url .= '&order_by='.implode('%2C%20', $this->orderBy);
         $url .= "&limit={$this->limit}";
         $url .= "&offset={$this->offset}";
-//        $url = urlencode($url);
-        dd($url);
 
         $client = new \GuzzleHttp\Client;
         $response = $client->request('GET', urlencode($url));
