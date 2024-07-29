@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace OroxMedia\OpenDataSoft\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class OpenDataSoftCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'opendatasoft';
 
     public $description = 'My command';
 

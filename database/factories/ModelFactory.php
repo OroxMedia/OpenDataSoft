@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Database\Factories;
+namespace OroxMedia\OpenDataSoft\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 
