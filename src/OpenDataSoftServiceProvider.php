@@ -2,9 +2,9 @@
 
 namespace OroxMedia\OpenDataSoft;
 
+use OroxMedia\OpenDataSoft\Commands\OpenDataSoftCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use OroxMedia\OpenDataSoft\Commands\OpenDataSoftCommand;
 
 class OpenDataSoftServiceProvider extends PackageServiceProvider
 {
